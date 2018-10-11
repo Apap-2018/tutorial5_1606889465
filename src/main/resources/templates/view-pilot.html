@@ -61,39 +61,7 @@
 	
 	</form>
 	
-<!--  
-	<h3 th:text="'Pilot License Number :'+${pilot.licenseNumber}"></h3>
-	
-	<h3 th:text="'Name:'+${pilot.name}"></h3>
 
-	<h3 th:text="'Fly Hour: ' +${pilot.flyHour}"></h3>
-	<h3 th:if="${pilot.flyHour} >= 100">Status: Pilot Senior</h3>
-	<h3 th:unless="${pilot.flyHour} >= 100">Status: Pilot Junior</h3>
-	
-	<a th:href="@{'/pilot/update/' + ${pilot.licenseNumber}}">Update Pilot</a> 
-	<a th:href="@{'/pilot/delete/' + ${pilot.id}}">Delete Pilot</a>
-	<a th:href="@{'/flight/add/' + ${pilot.licenseNumber}}">Add Flight</a> 
-	
-<br><br>
-	
-<tbody>
-	<tr th:each="flight,iterationStatus:${flight}">
-	<hr>
-		<h3> Detail Flight :</h3>
-		<td th:text="${iterationStatus.count}"></td>
-		<p th:text="'Flight Number: '+${flight.flightNumber}"/> 
-		<p th:text="'Origin:'+${flight.origin}"/>
-		<p th:text="'Destination: '+${flight.destination}"/>
-		<p th:text="'Time: '+${flight.time}"/>
-		
-		<a th:href="@{'/flight/view/'+${flight.id}}">View Detail</a>
-		<a th:href="@{'/flight/update/'+${flight.id}}">Update Flight</a>
-		<a th:href="@{'/flight/delete/'+${flight.id}}">Delete Flight</a>
-			
-	</tr>
-	
-</tbody>
--->
 </body>
 
 </html>
